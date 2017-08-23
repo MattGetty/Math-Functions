@@ -1,2 +1,2 @@
 # Math-Functions
-Mathematical Randomization and Functions
+Somewhat Helpful Mathematical Randomization and Functions
