@@ -8,12 +8,16 @@ if ((lowerCase === "classroom") || (lowerCase === "students")){
 window.alert(stem2[lowerCase]);
 }
 else{
-	for (i=1; i<3; i++){
+window.alert("You tried " + 1 + " time");
+	for (i=2; i<4; i++){
   	var x = prompt("classroom or students");
 		var lowerCase = x.toLowerCase();
 		if ((lowerCase === "classroom") || (lowerCase === "students")){
 		window.alert(stem2[lowerCase]);
-    i = 3;
+    i = 4;
   }
+else{
+window.alert("You tried " + i + " times");
+}
 }
 }
