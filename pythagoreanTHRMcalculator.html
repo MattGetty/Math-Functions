@@ -1,0 +1,28 @@
+<html>
+<body>
+  <script>
+    function showingC(){
+var a = aValue.value;
+var b = bValue.value;
+var c = Math.pow(a,2) + Math.pow(b,2);
+document.getElementById('CVALUE').innerHTML = Math.sqrt(c);
+}
+  </script>
+<h1>
+This is your A.
+</h1>
+<input type="number" id="aValue">
+<h1>
+This is your B.
+</h1>
+<input type="number" id="bValue">
+<br>
+<br>
+<button onclick = "showingC()">
+WE gonna do some pythag bish! Show C:
+</button>
+<h1 id="CVALUE">
+
+</h1>
+</body>
+</html>
